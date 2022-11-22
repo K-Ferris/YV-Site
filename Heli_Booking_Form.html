@@ -1,0 +1,440 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>YV </title>
+<link rel="icon" href="logoSmall.png" type="image/png">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css"> 
+<!-- <link href="css/font-awesome.css" rel="stylesheet" type="text/css">  -->
+<link href="font2/css/all.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+<link href="css/styles-copy.css" rel="stylesheet" type="text/css"> 
+
+<!--BOXICONS CSS-->
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+ 
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+ 
+</head>
+<body>
+
+<!--Header_section-->
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+      <div class="logo"><a href="index.html"><img src="YV_Images/yvk-s.png" alt="logo"></a></div>
+	  <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+        <div id="main-nav" class="collapse navbar-collapse navStyle">
+          <ul class="nav navbar-nav" id="mainNav">
+            <li class="active"><a href="index.html" class="scroll-link">Home</a></li>
+            <!-- <li><a href="#services" class="scroll-link">For Our Users</a></li> -->
+            <li><a href= "ParamedicCompanies.html" class="scroll-link">For Paramedic <br> Companies</a></li>
+            <li><a href="EMS_Dep.html" class="scroll-link">For EMS <br> Departments</a></li>
+            <li><a href="MedicalAid.html" class="scroll-link">For Medical Aids</a></li>
+            <li><a href="#contact" class="scroll-link">Contact Us</a></li>
+          </ul>
+          </div>
+	 </nav>
+    </div>
+  </div>
+</header>
+
+<!--Hero_Section-->
+<section id="hero_section" class="top_cont_outerHeliForm">
+  <div class="hero_wrapper">
+    <div class="container">
+      <div class="hero_section">
+        <div class="row">
+          <div class="col-lg-5 col-sm-7">
+            <!-- <img src="YV Images/ambulance (5).png" style = "border-radius: 50%;" class="zoomIn wow animated" alt="" /> -->
+          </div>
+          <div class="col-lg-7 col-sm-5">
+		
+      <div class="top_left_cont zoomIn wow animated"> 
+        <h2><strong></strong></h2>
+        <!-- <img src="YV_Images/ambulance (5).png" style = "border-radius: 50%;" class="zoomIn wow animated" alt="" /> -->
+        <!-- <p> Your Aid In Your Hands.</p> -->
+        <!-- <a href="#service" class="read_more2">Read more</a> </div> -->
+		  </div>
+        </div>
+      </div>
+    </div>
+    <div id="bottom_right_circ">
+      <p class = "bottom_right_circ_text"></p>
+    </div>
+    <div id="top_left_circ">
+      <div class="top_left_circ_text"> 
+        <h2><strong>YV Paramed</strong></h2>
+        <p> Your aid in your hands.</p>
+        <br>
+        <!-- <p><a href="#service" class="LearnMoreBTN">Sign Up</a></p> </div> -->
+		  </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footerform_wrapper" id="contact">
+    <div class="container">
+      <section class="page_section contact" id="contact">
+        <div class="contactForm_section">
+          <h2>Book For Your Appointment.</h2>
+          <form action="https://formsubmit.co/info@zibulabiztech.co.za" method="POST" >
+            <input type = "hidden" name = "_subject"  value = "New Booking For Helicopter">
+           <input class="input-text" type="text" name="First Name" placeholder="First Name" required> 
+          <input class="input-text" type="text" name="Surname" placeholder="Surname" required>
+          <input class="input-text" type="text" name="Id_Number" placeholder="ID Number (Optional)">
+          <input class="input-text" type="text" name="Phone_Number" placeholder="Phone Number" required>
+          <input class="input-text" type="text" name="Email_Address" placeholder="Email Address" required>
+          <input class="input-text" type="text" name="Physical_Address" placeholder="Physical Address" required>
+          <!-- <input class="input-text" type="text" name="Disability_Type" placeholder="Type Of Disability" required> -->
+          <input class="input-text" type="text" name="Med_Con" placeholder="Medical Condtion (Optional)">
+          <input type = "hidden" name = "_next" value = "https://yvonneparamed.zibulabiztech.co.za/thankYou.html">
+          
+          <label for="app_date">Next Appointment:</label>   
+          <input type="date" id="app_date" name="Next Appointment Date:" value="Appointment_Date" required>
+            
+          
+          <br>
+          <br>
+       
+          <p><u>Medical Aid?</u></p>
+          
+            <input type="radio" id="genInfo" name="Reason For Contact" value="General Info" required>
+            <label for="genInfo">Yes</label><br>
+            <input type="radio" id="consultancy" name="Reason For Contact" value="Consultancy & Advisory" required>
+            <label for="consultancy">No</label><br>
+          <br>
+    
+          <textarea class="input-text text-area" cols="0" rows="0" name="message" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">If yes please specify medical aid *</textarea>
+          <br>
+          <textarea class="input-text text-area" cols="0" rows="0" name="message" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Extra Information *</textarea>
+          <input class="inputForm-btn" type="submit" value="Submit">
+          <br>
+          <br>
+            </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+<!--Hero_Section--> 
+<br>
+<!--Service-->
+<!--Service-->
+
+<!--Hero_Section--> 
+
+<!-- <section id="aboutUs2-5-5" class="page-section features2">
+  <div class="container">    
+    <div class="row feature design">
+      <div class="six columns right">
+        <h2>Management Interface.</h2>
+        <p>Specifically tailored for managers and supervisors, the management application has
+          built-in management capabilities such as daily trips monitoring & tracking, an extensive call log detailing received, abandoned calls 
+        as well as HR & administration tools allowing the manager to keep tabs on their staff remotely, our application's simplistic user Interface is accessible enough for users who are not too familiar with smart phones can use. </p>
+        <button class = "interfceBTN" onclick="location.href='Lepato_App.html'"> Learn More!</button>
+      </div>
+      <div class="six columns feature-media left"> <img src="YV_Images/YV-OW-H.png" alt="For Paramedic Companies"> </div>
+    </div>
+  </div>
+
+  <div class="container">    
+    <div class="row feature design">
+      <div class="six columns feature-media left">
+        <h2>Paramedic Personnel Interface.</h2>
+        <p> Our paramedic interface allows paramedics to receive callouts that are closest to them and relevant to request backup from police stations, fire fighters and SAPS. The app also has a chat & live stream feature for the medic to have direct communication
+          with the patient/caller, other features such as traffic alerts, environment alerts and time API integrated with map APIs. </p>
+          <button class = "interfceBTN" onclick="location.href='Lepato_App.html'"> Learn More!</button>
+        </div>
+      <div class="six columns right"> <img src="YV_Images/YV-P-H.png" alt="For Paramedic Personnel"> </div>
+    </div>
+  </div>
+
+  <div class="container">    
+    <div class="row feature design">
+      <div class="six columns right">
+        <h2>End User Interface.</h2>
+        <p>The end user application adds value to the lives of patients, it is connected to YV's mainframe, automatically linking it to the management and paramedic personnel app.
+          The app enables the patient to upload their personal medical history enabling them to be treated easily in emergency situations, it's graphically customised per callout and pickup and offers direct access to patient/scene location. The app has other features such as access to other emergency vehicles such as helicopters and has built in payment options. </p>
+          <button class = "interfceBTN" onclick="location.href='Lepato_App.html'"> Learn More!</button>
+        </div>
+      <div class="six columns feature-media left"> <img src="YV_Images/YV-U-H.png" alt="For End Users"> </div>
+    </div>
+  </div>
+</section> -->
+
+
+<!-- Portfolio -->
+<!-- <section id="Portfolio" class="content">  -->
+  
+  <!-- Container -->
+  <!-- <div class="container portfolio_title">  -->
+    
+    <!-- Title -->
+    <!-- <div class="section-title">
+      <h2>Portfolio</h2>
+    </div> -->
+    <!--/Title --> 
+    
+  <!-- </div> -->
+  <!-- Container -->
+  
+  <!-- <div class="portfolio-top"></div> -->
+  
+  <!-- Portfolio Filters -->
+  <!-- <div class="portfolio"> 
+    
+    <div id="filters" class="sixteen columns">
+      <ul class="clearfix">
+        <li><a id="all" href="#" data-filter="*" class="active">
+          <h5>All</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".prototype">
+          <h5>Prototype</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".design">
+          <h5>Design</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".android">
+          <h5>Android</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".appleIOS">
+          <h5>Apple IOS</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".web">
+          <h5>Web App</h5>
+          </a></li>
+      </ul>
+    </div> -->
+    <!--/Portfolio Filters --> 
+    
+    <!-- Portfolio Wrapper -->
+    <!-- <div class="isotope fadeInLeft animated wow" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  -->
+      
+      <!-- Portfolio Item -->
+      <!-- <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   appleIOS isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic1.jpg"  alt="Portfolio 1"> </div>        
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">SMS Mobile App</h4>
+          </div>
+        </div>
+        </div> -->
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item-->
+      <!-- <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Finance App</h4>
+          </div>
+        </div>
+      </div> -->
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <!-- <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">GPS Concept</h4>
+          </div>
+        </div>
+      </div> -->
+      <!--/Portfolio Item--> 
+      
+      <!-- Portfolio Item-->
+      <!-- <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  android  prototype web isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Shopping</h4>
+          </div>
+        </div>
+      </div> -->
+      <!-- Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <!-- <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Managment</h4>
+          </div>
+        </div>
+      </div> -->
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <!-- <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">iPhone</h4>
+          </div>
+        </div>
+      </div> -->
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item  -->
+      <!-- <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>       
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Nexus Phone</h4>
+          </div>
+        </div>
+       </div> -->
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <!-- <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   android isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>       
+        <div class="item_overlay">
+          <div class="item_info"> 
+				<h4 class="project_name">Android</h4>
+          </div>
+        </div>
+        </a> </div> -->
+      <!--/Portfolio Item --> 
+      
+    <!-- </div> -->
+    <!--/Portfolio Wrapper --> 
+    
+  <!-- </div> -->
+  <!--/Portfolio Filters -->
+  
+  <!-- <div class="portfolio_btm"></div> -->
+  
+  
+  <!-- <div id="project_container">
+    <div class="clear"></div>
+    <div id="project_data"></div>
+  </div> -->
+ 
+  
+<!-- </section> -->
+<!--/Portfolio --> 
+
+<!-- <section class="page_section" id="clients">page_section -->
+  <!-- <h2>Partners</h2> -->
+
+<!-- </section> -->
+
+<!--Footer-->
+<footer class="footer_wrapper" id="contact">
+  <div class="container">
+    <section class="page_section contact" id="contact">
+      <div class="contact_section">
+        <h2>Contact Us</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            
+          </div>
+          <div class="col-lg-4">
+           
+          </div>
+          <div class="col-lg-4">
+          
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 wow fadeInLeft">	
+		 <div class="contact_info">
+                            <div class="detail">
+                                <h4>Zibula Business Intelligence Technologies</h4>
+                                <p>21 Soetdoring Street, Doringkruin, Klerksdorp, 2571</p>
+                            </div>
+                            <div class="detail">
+                                <h4>Call Us</h4>
+                                <p>(018) 000 5235</p>
+                                
+                            </div>
+                            <div class="detail">
+                                <h4>Email Us</h4>
+                                <p>info@zibulabiztech.co.za</p>
+                            </div> 
+                        </div>
+       		  
+			  
+          <!--Removed classes that control color-->
+          <ul class="social_links">
+            <li><a href="https://www.facebook.com/Zibulabiztech/"><i class='bx bxl-facebook-circle bx-tada-hover bx-lg' ></i></a></li>
+            <li><a href="javascript:void(0)"><i class='bx bxl-twitter bx-tada-hover bx-lg'></i></a></li>
+            <li><a href="https://www.linkedin.com/company/zibula-business-intelligence-technologies/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_companies%3BRvVtjWpvT9iYIsXItXYKvA%3D%3D"><i class='bx bxl-linkedin bx-tada-hover bx-lg' ></i></a></li>
+             <li><a href="https://wa.me/qr/LJWB4GUIZPYPL1"><i class='bx bxl-whatsapp bx-tada-hover bx-lg' ></i></a></li>
+            </ul>
+
+        </div>
+        <!-- <div class="col-lg-8 wow fadeInLeft delay-06s">
+          <div class="form">
+            <form action="https://formsubmit.co/info@zibulabiztech.co.za" method="POST" >
+              <input type = "hidden" name = "_subject"  value = "New Booking For Ambulance">
+             <input class="input-text" type="text" name="Full Name" placeholder="Full Name" required> 
+            <input class="input-text" type="text" name="Email Address" placeholder="Email Address" required>
+            <input type = "hidden" name = "_next" value = "https://yvonneparamed.zibulabiztech.co.za/thankYou.html"> -->
+            <!-- <p><u>Please select your reason for contacting us:</u></p>
+            
+              <input type="radio" id="genInfo" name="Reason For Contact" value="General Info" required>
+              <label for="genInfo">General Info</label><br>
+              <input type="radio" id="consultancy" name="Reason For Contact" value="Consultancy & Advisory" required>
+              <label for="consultancy">Consultancy & Advisory</label><br>
+              <input type="radio" id="yv" name="Reason For Contact" value="YV Paramed" required>
+              <label for="yv">YV Paramed</label><br>
+               <input type="radio" id="donation" name="Reason For Contact" value="Donation" required>
+              <label for="donation">Donation</label> -->
+            
+            <!-- <label class="radio-inline">
+              <input type="radio" name="genInfo">General Info
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="optradio">Consultancy / Advisory
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="optradio">YV Paramed
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="optradio">Donation
+            </label> -->
+            <!-- <br>
+            <br> -->
+
+
+            <!-- <textarea class="input-text text-area" cols="0" rows="0" name="message" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Message *</textarea>
+            <input class="input-btn" type="submit" value="Submit">
+          </form>
+          </div>
+        </div> -->
+      </div>
+    </section>
+  </div>
+ 
+  <div class="container">
+    <div class="footer_bottom"><span>Copyright © 2022,  Zibula Business Intelligence Technologies. </span> </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script> 
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+</html>
